@@ -19,7 +19,8 @@
 		"prepublish": "gulp clean default",
 		"test": "gulp test",
 		"test-lib": "intern-client config=./tests/intern reporters=pretty",
-		"test-minified": "intern-client config=./tests/intern reporters=pretty minified=true"
+		"test-minified": "intern-client config=./tests/intern reporters=pretty minified=true",
+		"test-functional": "intern-runner config=./tests/intern"
 	},
 	"devDependencies": {
 		"gulp": "3.x",
